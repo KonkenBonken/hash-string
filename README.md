@@ -7,5 +7,7 @@ A string hashing function based on Daniel J. Bernstein's popular 'times 33' hash
 ## Example
 
 ```javascript
-console.log(hash('{ test: true }'));
+var hashString = require("hash-string")
+hashString('Hello World!');
+// 984162468
 ```
